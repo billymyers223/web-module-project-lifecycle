@@ -1,0 +1,76 @@
+
+.App {
+  text-align: center;
+  background-color: #3A506B;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  color:white;
+}
+
+form{
+  margin-bottom: 20px;
+}
+
+button{
+  background-color: black;
+  color:white;
+  padding:5px;
+  border-radius: 8px;
+  border:black 1px solid;
+  transition: .3s;
+  margin-left: 10px;
+}
+button:hover{
+  color:black;
+  background-color: white;
+}
+.user-card{
+  color: #3A506B;
+  padding: 20px;
+  background-color: white;
+  width: 50%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 1px 1px 17px black;
+}
+.user-card img{
+  border: rgb(0, 0,0,.50) solid 4px;
+}
+a{
+  background-color: #3A506B;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 1.2;
+  color: white;
+  border-radius: 8px;
+  border: solid #3A506B 1px;
+  transition: .3s;
+}
+a:hover{
+  color:#3A506B;
+  background-color: white;
+}
+
+.followers{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color:#3A506B;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 1px 1px 17px black;
+  height: auto;
+  width: 50%;
+  justify-content: center;
+}
+.follower{
+  margin: 20px;
+  padding: 10px;
+  border: #3A506B 5px solid;
+  border-radius: 8px;
+}
+
+
